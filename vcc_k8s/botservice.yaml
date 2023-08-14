@@ -17,7 +17,7 @@ spec:
         tier: backend
     spec:
       containers:
-      - name: bot
+      - name: botservice
         image: "ghcr.io/vcc-chat/vcc_rpc"
         command: ["/usr/local/bin/python3.11","/app/services/bot.py"]
         resources:

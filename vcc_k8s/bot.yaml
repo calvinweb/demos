@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: bot
-        image: "ghcr.io/vcc-chat/bot"
+        image: "ghcr.io/vcc-chat/vcc-bot"
         resources:
           requests:
             cpu: 100m
